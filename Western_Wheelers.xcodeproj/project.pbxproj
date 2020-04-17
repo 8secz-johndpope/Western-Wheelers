@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37B5583EDFF6AACFE7660669 /* Pods_Western_Wheelers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03D79D1EF7235FCB0721F8D /* Pods_Western_Wheelers.framework */; };
+		7B1A09CF24494A6A00F50734 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B1A09CE24494A6A00F50734 /* awsconfiguration.json */; };
+		7B1A09D024494A6A00F50734 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B1A09CE24494A6A00F50734 /* awsconfiguration.json */; };
+		7B1A09D124494A6A00F50734 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B1A09CE24494A6A00F50734 /* awsconfiguration.json */; };
+		7B1A09D3244958BF00F50734 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A09D2244958BF00F50734 /* API.swift */; };
+		7B1A09D4244958BF00F50734 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A09D2244958BF00F50734 /* API.swift */; };
+		7B1A09D5244958BF00F50734 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A09D2244958BF00F50734 /* API.swift */; };
+		7B6AE218244918FE00EECFCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AE217244918FE00EECFCF /* AppDelegate.swift */; };
+		7B6AE21A244918FE00EECFCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AE219244918FE00EECFCF /* SceneDelegate.swift */; };
+		7B6AE21C244918FE00EECFCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AE21B244918FE00EECFCF /* ContentView.swift */; };
+		7B6AE21E244918FF00EECFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6AE21D244918FF00EECFCF /* Assets.xcassets */; };
+		7B6AE221244918FF00EECFCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6AE220244918FF00EECFCF /* Preview Assets.xcassets */; };
+		7B6AE224244918FF00EECFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6AE222244918FF00EECFCF /* LaunchScreen.storyboard */; };
+		7B6AE22F244918FF00EECFCF /* Western_WheelersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AE22E244918FF00EECFCF /* Western_WheelersTests.swift */; };
+		7B6AE23A244918FF00EECFCF /* Western_WheelersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AE239244918FF00EECFCF /* Western_WheelersUITests.swift */; };
+		7BF0821C2449702E00F30ED6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7BF0821B2449702E00F30ED6 /* Podfile */; };
+		7BF0821E2449704F00F30ED6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7BF0821D2449704F00F30ED6 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B6AE22B244918FF00EECFCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6AE20C244918FE00EECFCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6AE213244918FE00EECFCF;
+			remoteInfo = Western_Wheelers;
+		};
+		7B6AE236244918FF00EECFCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6AE20C244918FE00EECFCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6AE213244918FE00EECFCF;
+			remoteInfo = Western_Wheelers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		328DA2651A56D5C22485C997 /* Pods-Western_Wheelers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Western_Wheelers.debug.xcconfig"; path = "Target Support Files/Pods-Western_Wheelers/Pods-Western_Wheelers.debug.xcconfig"; sourceTree = "<group>"; };
+		661733322E4AFB44E68627A9 /* Pods-Western_Wheelers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Western_Wheelers.release.xcconfig"; path = "Target Support Files/Pods-Western_Wheelers/Pods-Western_Wheelers.release.xcconfig"; sourceTree = "<group>"; };
+		7B1A09CE24494A6A00F50734 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		7B1A09D2244958BF00F50734 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = SOURCE_ROOT; };
+		7B6AE214244918FE00EECFCF /* Western_Wheelers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Western_Wheelers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6AE217244918FE00EECFCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B6AE219244918FE00EECFCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B6AE21B244918FE00EECFCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B6AE21D244918FF00EECFCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B6AE220244918FF00EECFCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B6AE223244918FF00EECFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B6AE225244918FF00EECFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6AE22A244918FF00EECFCF /* Western_WheelersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Western_WheelersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6AE22E244918FF00EECFCF /* Western_WheelersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Western_WheelersTests.swift; sourceTree = "<group>"; };
+		7B6AE230244918FF00EECFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6AE235244918FF00EECFCF /* Western_WheelersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Western_WheelersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6AE239244918FF00EECFCF /* Western_WheelersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Western_WheelersUITests.swift; sourceTree = "<group>"; };
+		7B6AE23B244918FF00EECFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF0821B2449702E00F30ED6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		7BF0821D2449704F00F30ED6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		B03D79D1EF7235FCB0721F8D /* Pods_Western_Wheelers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Western_Wheelers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B6AE211244918FE00EECFCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B5583EDFF6AACFE7660669 /* Pods_Western_Wheelers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6AE227244918FF00EECFCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6AE232244918FF00EECFCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180FD278A676567F935D8383 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				328DA2651A56D5C22485C997 /* Pods-Western_Wheelers.debug.xcconfig */,
+				661733322E4AFB44E68627A9 /* Pods-Western_Wheelers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B6AE20B244918FE00EECFCF = {
+			isa = PBXGroup;
+			children = (
+				7B6AE216244918FE00EECFCF /* Western_Wheelers */,
+				7B6AE22D244918FF00EECFCF /* Western_WheelersTests */,
+				7B6AE238244918FF00EECFCF /* Western_WheelersUITests */,
+				7B6AE215244918FE00EECFCF /* Products */,
+				180FD278A676567F935D8383 /* Pods */,
+				A27B4EB5D0ECAD7DF805C37C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B6AE215244918FE00EECFCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B6AE214244918FE00EECFCF /* Western_Wheelers.app */,
+				7B6AE22A244918FF00EECFCF /* Western_WheelersTests.xctest */,
+				7B6AE235244918FF00EECFCF /* Western_WheelersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B6AE216244918FE00EECFCF /* Western_Wheelers */ = {
+			isa = PBXGroup;
+			children = (
+				7BF0821D2449704F00F30ED6 /* .gitignore */,
+				7BF0821B2449702E00F30ED6 /* Podfile */,
+				7B1A09D2244958BF00F50734 /* API.swift */,
+				7B1A09CE24494A6A00F50734 /* awsconfiguration.json */,
+				7B6AE217244918FE00EECFCF /* AppDelegate.swift */,
+				7B6AE219244918FE00EECFCF /* SceneDelegate.swift */,
+				7B6AE21B244918FE00EECFCF /* ContentView.swift */,
+				7B6AE21D244918FF00EECFCF /* Assets.xcassets */,
+				7B6AE222244918FF00EECFCF /* LaunchScreen.storyboard */,
+				7B6AE225244918FF00EECFCF /* Info.plist */,
+				7B6AE21F244918FF00EECFCF /* Preview Content */,
+			);
+			path = Western_Wheelers;
+			sourceTree = "<group>";
+		};
+		7B6AE21F244918FF00EECFCF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B6AE220244918FF00EECFCF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B6AE22D244918FF00EECFCF /* Western_WheelersTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6AE22E244918FF00EECFCF /* Western_WheelersTests.swift */,
+				7B6AE230244918FF00EECFCF /* Info.plist */,
+			);
+			path = Western_WheelersTests;
+			sourceTree = "<group>";
+		};
+		7B6AE238244918FF00EECFCF /* Western_WheelersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6AE239244918FF00EECFCF /* Western_WheelersUITests.swift */,
+				7B6AE23B244918FF00EECFCF /* Info.plist */,
+			);
+			path = Western_WheelersUITests;
+			sourceTree = "<group>";
+		};
+		A27B4EB5D0ECAD7DF805C37C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B03D79D1EF7235FCB0721F8D /* Pods_Western_Wheelers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B6AE213244918FE00EECFCF /* Western_Wheelers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6AE23E244918FF00EECFCF /* Build configuration list for PBXNativeTarget "Western_Wheelers" */;
+			buildPhases = (
+				18B1960FAD426319952CE9E6 /* [CP] Check Pods Manifest.lock */,
+				7B6AE210244918FE00EECFCF /* Sources */,
+				7B6AE211244918FE00EECFCF /* Frameworks */,
+				7B6AE212244918FE00EECFCF /* Resources */,
+				CAA8A8003EE7E277DFE9CB8B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Western_Wheelers;
+			productName = Western_Wheelers;
+			productReference = 7B6AE214244918FE00EECFCF /* Western_Wheelers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B6AE229244918FF00EECFCF /* Western_WheelersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6AE241244918FF00EECFCF /* Build configuration list for PBXNativeTarget "Western_WheelersTests" */;
+			buildPhases = (
+				7B6AE226244918FF00EECFCF /* Sources */,
+				7B6AE227244918FF00EECFCF /* Frameworks */,
+				7B6AE228244918FF00EECFCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6AE22C244918FF00EECFCF /* PBXTargetDependency */,
+			);
+			name = Western_WheelersTests;
+			productName = Western_WheelersTests;
+			productReference = 7B6AE22A244918FF00EECFCF /* Western_WheelersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B6AE234244918FF00EECFCF /* Western_WheelersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6AE244244918FF00EECFCF /* Build configuration list for PBXNativeTarget "Western_WheelersUITests" */;
+			buildPhases = (
+				7B6AE231244918FF00EECFCF /* Sources */,
+				7B6AE232244918FF00EECFCF /* Frameworks */,
+				7B6AE233244918FF00EECFCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6AE237244918FF00EECFCF /* PBXTargetDependency */,
+			);
+			name = Western_WheelersUITests;
+			productName = Western_WheelersUITests;
+			productReference = 7B6AE235244918FF00EECFCF /* Western_WheelersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B6AE20C244918FE00EECFCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "David Murphy";
+				TargetAttributes = {
+					7B6AE213244918FE00EECFCF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					7B6AE229244918FF00EECFCF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7B6AE213244918FE00EECFCF;
+					};
+					7B6AE234244918FF00EECFCF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7B6AE213244918FE00EECFCF;
+					};
+				};
+			};
+			buildConfigurationList = 7B6AE20F244918FE00EECFCF /* Build configuration list for PBXProject "Western_Wheelers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B6AE20B244918FE00EECFCF;
+			productRefGroup = 7B6AE215244918FE00EECFCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B6AE213244918FE00EECFCF /* Western_Wheelers */,
+				7B6AE229244918FF00EECFCF /* Western_WheelersTests */,
+				7B6AE234244918FF00EECFCF /* Western_WheelersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B6AE212244918FE00EECFCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF0821C2449702E00F30ED6 /* Podfile in Resources */,
+				7B1A09CF24494A6A00F50734 /* awsconfiguration.json in Resources */,
+				7B6AE224244918FF00EECFCF /* LaunchScreen.storyboard in Resources */,
+				7B6AE221244918FF00EECFCF /* Preview Assets.xcassets in Resources */,
+				7BF0821E2449704F00F30ED6 /* .gitignore in Resources */,
+				7B6AE21E244918FF00EECFCF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6AE228244918FF00EECFCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1A09D024494A6A00F50734 /* awsconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6AE233244918FF00EECFCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1A09D124494A6A00F50734 /* awsconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18B1960FAD426319952CE9E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Western_Wheelers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA8A8003EE7E277DFE9CB8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Western_Wheelers/Pods-Western_Wheelers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Western_Wheelers/Pods-Western_Wheelers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Western_Wheelers/Pods-Western_Wheelers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B6AE210244918FE00EECFCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6AE218244918FE00EECFCF /* AppDelegate.swift in Sources */,
+				7B6AE21A244918FE00EECFCF /* SceneDelegate.swift in Sources */,
+				7B1A09D3244958BF00F50734 /* API.swift in Sources */,
+				7B6AE21C244918FE00EECFCF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6AE226244918FF00EECFCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1A09D4244958BF00F50734 /* API.swift in Sources */,
+				7B6AE22F244918FF00EECFCF /* Western_WheelersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6AE231244918FF00EECFCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1A09D5244958BF00F50734 /* API.swift in Sources */,
+				7B6AE23A244918FF00EECFCF /* Western_WheelersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B6AE22C244918FF00EECFCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6AE213244918FE00EECFCF /* Western_Wheelers */;
+			targetProxy = 7B6AE22B244918FF00EECFCF /* PBXContainerItemProxy */;
+		};
+		7B6AE237244918FF00EECFCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6AE213244918FE00EECFCF /* Western_Wheelers */;
+			targetProxy = 7B6AE236244918FF00EECFCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B6AE222244918FF00EECFCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6AE223244918FF00EECFCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B6AE23C244918FF00EECFCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B6AE23D244918FF00EECFCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B6AE23F244918FF00EECFCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328DA2651A56D5C22485C997 /* Pods-Western_Wheelers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Western_Wheelers/Preview Content\"";
+				DEVELOPMENT_TEAM = 4MFY8UWD3R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Western_Wheelers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david-murphy.Western-Wheelers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B6AE240244918FF00EECFCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661733322E4AFB44E68627A9 /* Pods-Western_Wheelers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Western_Wheelers/Preview Content\"";
+				DEVELOPMENT_TEAM = 4MFY8UWD3R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Western_Wheelers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david-murphy.Western-Wheelers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B6AE242244918FF00EECFCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MFY8UWD3R;
+				INFOPLIST_FILE = Western_WheelersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david-murphy.Western-WheelersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Western_Wheelers.app/Western_Wheelers";
+			};
+			name = Debug;
+		};
+		7B6AE243244918FF00EECFCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MFY8UWD3R;
+				INFOPLIST_FILE = Western_WheelersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david-murphy.Western-WheelersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Western_Wheelers.app/Western_Wheelers";
+			};
+			name = Release;
+		};
+		7B6AE245244918FF00EECFCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MFY8UWD3R;
+				INFOPLIST_FILE = Western_WheelersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david-murphy.Western-WheelersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Western_Wheelers;
+			};
+			name = Debug;
+		};
+		7B6AE246244918FF00EECFCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MFY8UWD3R;
+				INFOPLIST_FILE = Western_WheelersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david-murphy.Western-WheelersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Western_Wheelers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B6AE20F244918FE00EECFCF /* Build configuration list for PBXProject "Western_Wheelers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6AE23C244918FF00EECFCF /* Debug */,
+				7B6AE23D244918FF00EECFCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6AE23E244918FF00EECFCF /* Build configuration list for PBXNativeTarget "Western_Wheelers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6AE23F244918FF00EECFCF /* Debug */,
+				7B6AE240244918FF00EECFCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6AE241244918FF00EECFCF /* Build configuration list for PBXNativeTarget "Western_WheelersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6AE242244918FF00EECFCF /* Debug */,
+				7B6AE243244918FF00EECFCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6AE244244918FF00EECFCF /* Build configuration list for PBXNativeTarget "Western_WheelersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6AE245244918FF00EECFCF /* Debug */,
+				7B6AE246244918FF00EECFCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B6AE20C244918FE00EECFCF /* Project object */;
+}

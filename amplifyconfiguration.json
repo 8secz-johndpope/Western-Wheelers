@@ -1,0 +1,17 @@
+{
+    "UserAgent": "aws-amplify-cli/2.0",
+    "Version": "1.0",
+    "api": {
+        "plugins": {
+            "awsAPIPlugin": {
+                "westernwheelers": {
+                    "endpointType": "GraphQL",
+                    "endpoint": "https://epxq3bggy5ehhcci3rridaihey.appsync-api.us-west-2.amazonaws.com/graphql",
+                    "region": "us-west-2",
+                    "authorizationType": "API_KEY",
+                    "apiKey": "da2-yrmpssgcdjcu7cg4zki47f5rdy"
+                }
+            }
+        }
+    }
+}

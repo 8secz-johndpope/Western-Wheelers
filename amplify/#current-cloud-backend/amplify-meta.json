@@ -1,0 +1,42 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-westernwheelers-wwenv-155819-authRole",
+			"UnauthRoleArn": "arn:aws:iam::804494093034:role/amplify-westernwheelers-wwenv-155819-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::804494093034:role/amplify-westernwheelers-wwenv-155819-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "amplify-westernwheelers-wwenv-155819-deployment",
+			"UnauthRoleName": "amplify-westernwheelers-wwenv-155819-unauthRole",
+			"StackName": "amplify-westernwheelers-wwenv-155819",
+			"StackId": "arn:aws:cloudformation:us-west-2:804494093034:stack/amplify-westernwheelers-wwenv-155819/c5736ec0-8035-11ea-b906-06675510bae4",
+			"AmplifyAppId": "d2ia4x4q1nrh6t"
+		}
+	},
+	"api": {
+		"westernwheelers": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "",
+							"apiKeyExpirationDays": 7
+						}
+					}
+				},
+				"GraphQLAPIIdOutput": "7yqswasctbbnvia3ybxufedtfe",
+				"GraphQLAPIEndpointOutput": "https://epxq3bggy5ehhcci3rridaihey.appsync-api.us-west-2.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-yrmpssgcdjcu7cg4zki47f5rdy"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-westernwheelers-wwenv-155819-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apiwesternwheelers"
+			},
+			"lastPushTimeStamp": "2020-04-16T23:14:33.185Z",
+			"lastPushDirHash": "Z1U6czHsh5ItU/ufnnEMlLf2o+k="
+		}
+	}
+}

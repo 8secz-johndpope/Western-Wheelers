@@ -1,0 +1,166 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateBlog {
+  onCreateBlog {
+    id
+    name
+    posts {
+      items {
+        id
+        title
+        blogID
+      }
+      nextToken
+    }
+  }
+}
+subscription OnUpdateBlog {
+  onUpdateBlog {
+    id
+    name
+    posts {
+      items {
+        id
+        title
+        blogID
+      }
+      nextToken
+    }
+  }
+}
+subscription OnDeleteBlog {
+  onDeleteBlog {
+    id
+    name
+    posts {
+      items {
+        id
+        title
+        blogID
+      }
+      nextToken
+    }
+  }
+}
+subscription OnCreatePost {
+  onCreatePost {
+    id
+    title
+    blogID
+    blog {
+      id
+      name
+      posts {
+        nextToken
+      }
+    }
+    comments {
+      items {
+        id
+        postID
+        content
+      }
+      nextToken
+    }
+  }
+}
+subscription OnUpdatePost {
+  onUpdatePost {
+    id
+    title
+    blogID
+    blog {
+      id
+      name
+      posts {
+        nextToken
+      }
+    }
+    comments {
+      items {
+        id
+        postID
+        content
+      }
+      nextToken
+    }
+  }
+}
+subscription OnDeletePost {
+  onDeletePost {
+    id
+    title
+    blogID
+    blog {
+      id
+      name
+      posts {
+        nextToken
+      }
+    }
+    comments {
+      items {
+        id
+        postID
+        content
+      }
+      nextToken
+    }
+  }
+}
+subscription OnCreateComment {
+  onCreateComment {
+    id
+    postID
+    post {
+      id
+      title
+      blogID
+      blog {
+        id
+        name
+      }
+      comments {
+        nextToken
+      }
+    }
+    content
+  }
+}
+subscription OnUpdateComment {
+  onUpdateComment {
+    id
+    postID
+    post {
+      id
+      title
+      blogID
+      blog {
+        id
+        name
+      }
+      comments {
+        nextToken
+      }
+    }
+    content
+  }
+}
+subscription OnDeleteComment {
+  onDeleteComment {
+    id
+    postID
+    post {
+      id
+      title
+      blogID
+      blog {
+        id
+        name
+      }
+      comments {
+        nextToken
+      }
+    }
+    content
+  }
+}
