@@ -12,8 +12,6 @@
 		7B1A09D024494A6A00F50734 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B1A09CE24494A6A00F50734 /* awsconfiguration.json */; };
 		7B1A09D124494A6A00F50734 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B1A09CE24494A6A00F50734 /* awsconfiguration.json */; };
 		7B1A09D3244958BF00F50734 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A09D2244958BF00F50734 /* API.swift */; };
-		7B1A09D4244958BF00F50734 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A09D2244958BF00F50734 /* API.swift */; };
-		7B1A09D5244958BF00F50734 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A09D2244958BF00F50734 /* API.swift */; };
 		7B6AE218244918FE00EECFCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AE217244918FE00EECFCF /* AppDelegate.swift */; };
 		7B6AE21A244918FE00EECFCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AE219244918FE00EECFCF /* SceneDelegate.swift */; };
 		7B6AE21C244918FE00EECFCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AE21B244918FE00EECFCF /* ContentView.swift */; };
@@ -22,6 +20,7 @@
 		7B6AE224244918FF00EECFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6AE222244918FF00EECFCF /* LaunchScreen.storyboard */; };
 		7B6AE22F244918FF00EECFCF /* Western_WheelersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AE22E244918FF00EECFCF /* Western_WheelersTests.swift */; };
 		7B6AE23A244918FF00EECFCF /* Western_WheelersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AE239244918FF00EECFCF /* Western_WheelersUITests.swift */; };
+		7BDD82FE2449944700183771 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD82FD2449944700183771 /* AppUser.swift */; };
 		7BF0821C2449702E00F30ED6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7BF0821B2449702E00F30ED6 /* Podfile */; };
 		7BF0821E2449704F00F30ED6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7BF0821D2449704F00F30ED6 /* .gitignore */; };
 /* End PBXBuildFile section */
@@ -46,8 +45,8 @@
 /* Begin PBXFileReference section */
 		328DA2651A56D5C22485C997 /* Pods-Western_Wheelers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Western_Wheelers.debug.xcconfig"; path = "Target Support Files/Pods-Western_Wheelers/Pods-Western_Wheelers.debug.xcconfig"; sourceTree = "<group>"; };
 		661733322E4AFB44E68627A9 /* Pods-Western_Wheelers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Western_Wheelers.release.xcconfig"; path = "Target Support Files/Pods-Western_Wheelers/Pods-Western_Wheelers.release.xcconfig"; sourceTree = "<group>"; };
-		7B1A09CE24494A6A00F50734 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
-		7B1A09D2244958BF00F50734 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = SOURCE_ROOT; };
+		7B1A09CE24494A6A00F50734 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = Western_Wheelers/Config/awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		7B1A09D2244958BF00F50734 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = Western_Wheelers/Model/API.swift; sourceTree = SOURCE_ROOT; };
 		7B6AE214244918FE00EECFCF /* Western_Wheelers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Western_Wheelers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6AE217244918FE00EECFCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B6AE219244918FE00EECFCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,8 +61,9 @@
 		7B6AE235244918FF00EECFCF /* Western_WheelersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Western_WheelersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6AE239244918FF00EECFCF /* Western_WheelersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Western_WheelersUITests.swift; sourceTree = "<group>"; };
 		7B6AE23B244918FF00EECFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BF0821B2449702E00F30ED6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
-		7BF0821D2449704F00F30ED6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		7BDD82FD2449944700183771 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		7BF0821B2449702E00F30ED6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = Western_Wheelers/Config/Podfile; sourceTree = SOURCE_ROOT; };
+		7BF0821D2449704F00F30ED6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = Western_Wheelers/Config/.gitignore; sourceTree = SOURCE_ROOT; };
 		B03D79D1EF7235FCB0721F8D /* Pods_Western_Wheelers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Western_Wheelers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -127,16 +127,14 @@
 		7B6AE216244918FE00EECFCF /* Western_Wheelers */ = {
 			isa = PBXGroup;
 			children = (
-				7BF0821D2449704F00F30ED6 /* .gitignore */,
-				7BF0821B2449702E00F30ED6 /* Podfile */,
-				7B1A09D2244958BF00F50734 /* API.swift */,
-				7B1A09CE24494A6A00F50734 /* awsconfiguration.json */,
-				7B6AE217244918FE00EECFCF /* AppDelegate.swift */,
+				7BDD83022449957100183771 /* Views */,
+				7B6AE225244918FF00EECFCF /* Info.plist */,
+				7BDD8301244994CA00183771 /* Config */,
+				7BDD82FF2449946F00183771 /* App */,
+				7BDD82FC2449942900183771 /* Model */,
 				7B6AE219244918FE00EECFCF /* SceneDelegate.swift */,
-				7B6AE21B244918FE00EECFCF /* ContentView.swift */,
 				7B6AE21D244918FF00EECFCF /* Assets.xcassets */,
 				7B6AE222244918FF00EECFCF /* LaunchScreen.storyboard */,
-				7B6AE225244918FF00EECFCF /* Info.plist */,
 				7B6AE21F244918FF00EECFCF /* Preview Content */,
 			);
 			path = Western_Wheelers;
@@ -166,6 +164,42 @@
 				7B6AE23B244918FF00EECFCF /* Info.plist */,
 			);
 			path = Western_WheelersUITests;
+			sourceTree = "<group>";
+		};
+		7BDD82FC2449942900183771 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B1A09D2244958BF00F50734 /* API.swift */,
+				7BDD82FD2449944700183771 /* AppUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BDD82FF2449946F00183771 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7B6AE217244918FE00EECFCF /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7BDD8301244994CA00183771 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				7BF0821D2449704F00F30ED6 /* .gitignore */,
+				7BF0821B2449702E00F30ED6 /* Podfile */,
+				7B1A09CE24494A6A00F50734 /* awsconfiguration.json */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		7BDD83022449957100183771 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B6AE21B244918FE00EECFCF /* ContentView.swift */,
+			);
+			name = Views;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A27B4EB5D0ECAD7DF805C37C /* Frameworks */ = {
@@ -359,6 +393,7 @@
 				7B6AE218244918FE00EECFCF /* AppDelegate.swift in Sources */,
 				7B6AE21A244918FE00EECFCF /* SceneDelegate.swift in Sources */,
 				7B1A09D3244958BF00F50734 /* API.swift in Sources */,
+				7BDD82FE2449944700183771 /* AppUser.swift in Sources */,
 				7B6AE21C244918FE00EECFCF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +402,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B1A09D4244958BF00F50734 /* API.swift in Sources */,
 				7B6AE22F244918FF00EECFCF /* Western_WheelersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,7 +410,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B1A09D5244958BF00F50734 /* API.swift in Sources */,
 				7B6AE23A244918FF00EECFCF /* Western_WheelersUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

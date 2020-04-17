@@ -40,7 +40,6 @@ public struct AWSAppSyncServiceConfig: AWSAppSyncServiceConfigProvider {
     /// - Throws: AWSAppSyncClientInfoError if the `awsconfiguration.json` file cannot be read, if the "AppSync" configuration
     ///   is not present, or if the configuration is not valid.
     public init(forKey key: String = "Default") throws {
-        print("========================AWSAppSyncServiceConfig::\(key)")
         let info = AWSInfo.default()
 
         guard

@@ -9,65 +9,37 @@ import AWSAppSync
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    var appSyncClient: AWSAppSyncClient?
+    public static var app_sync_client: AWSAppSyncClient?
+    public static var app_user = AppUser()
     
-    func do_init() {
+    func init_app_sync() {
+        //TODO should be background thread after app is running?
          do {
             // API Key authorization
             let serviceConfigAPIKey = try AWSAppSyncServiceConfig()
             let cacheConfigAPIKey = try AWSAppSyncCacheConfiguration(useClientDatabasePrefix: true, appSyncServiceConfig: serviceConfigAPIKey)
             let clientConfigAPIKey = try AWSAppSyncClientConfiguration(appSyncServiceConfig: serviceConfigAPIKey, cacheConfiguration: cacheConfigAPIKey)
-            appSyncClient = try AWSAppSyncClient(appSyncConfig: clientConfigAPIKey)
+            AppDelegate.app_sync_client = try AWSAppSyncClient(appSyncConfig: clientConfigAPIKey)
             
             // IAM authorization
 //            let serviceConfigIAM = try AWSAppSyncServiceConfig(forKey: "friendly_name_AWS_IAM")
 //            let cacheConfigIAM = try AWSAppSyncCacheConfiguration(useClientDatabasePrefix: true, appSyncServiceConfig: serviceConfigIAM)
 //            let clientConfigIAM = try AWSAppSyncClientConfiguration(appSyncServiceConfig: serviceConfigIAM,cacheConfiguration: cacheConfigIAM)
 //            clients[AppSyncClientMode.private] = try AWSAppSyncClient(appSyncConfig: clientConfigIAM)
-            print("AppDelegate:inited client")
             
             //delegate client
-            let appDelegate = UIApplication.shared.delegate as! AppDelegate
-            let cl1 = appDelegate.appSyncClient
-            
-            // mutation   
-            let mutationInput = CreateBlogInput(name: "Daviuuuuuu BLog")
-            appSyncClient?.perform(mutation: CreateBlogMutation(input: mutationInput)) { (result, error) in
-                if let error = error as? AWSAppSyncClientError {
-                    print("Error occurred: \(error.localizedDescription )")
-                }
-                if let resultError = result?.errors {
-                    print("Error saving the item on server: \(resultError)")
-                    return
-                }
-                print("Mutation complete.")
-            }
-            
+            //let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            //let client = appDelegate.appSyncClient
+            print("AppDelegate::created AppSync client")
         } catch {
-            print("AppDelegate:Error initializing appsync client. \(error)")
+            AppDelegate.report_error(class_type: type(of: self), error: "Cannot init AppSync client\(error)")
         }
     }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        self.do_init()
-//        do {
-//
-//            // You can choose the directory in which AppSync stores its persistent cache databases
-//            let cacheConfiguration = try AWSAppSyncCacheConfiguration()
-//            //print("CACHE CONFIG \(cacheConfiguration)")
-//            // AppSync configuration & client initialization
-//            let a = try? AWSAppSyncServiceConfig()
-//            let appSyncServiceConfig = try AWSAppSyncServiceConfig()
-//            print("CONFIG \(appSyncServiceConfig)")
-//            let appSyncConfig = try AWSAppSyncClientConfiguration(appSyncServiceConfig: appSyncServiceConfig,
-//                                                                  cacheConfiguration: cacheConfiguration)
-//            appSyncClient = try AWSAppSyncClient(appSyncConfig: appSyncConfig)
-//            print("Initialized appsync client.")
-//        } catch {
-//            print("Error initializing appsync client. \(error)")
-//        }
-//        // other methods
+        self.init_app_sync()
+        AppDelegate.app_user.save()
         return true
     }
 
@@ -85,6 +57,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    static func report_error(class_type: CFTypeRef, error: String) {
+        print ("\n\n********* \(class_type):: \(error)\n")
+    }
 
 }
 
